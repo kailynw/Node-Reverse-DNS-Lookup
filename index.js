@@ -1,3 +1,5 @@
+const dns= require("dns") //npm install dns
+
 function getHostnamebyIp(ip){
   const MAX_TRIES=10
 
